@@ -2,7 +2,7 @@
 
 def second_maximum(nums):
     if len(nums) < 2:
-        return None  # Second max possible na
+        return None  # Second max not possible 
 
     max1 = float('-inf')
     max2 = float('-inf')
